@@ -1,0 +1,37 @@
+{
+  "name": "next-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "emotion": "^9.2.6",
+    "idx": "^2.4.0",
+    "next": "^6.1.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.4",
+    "@types/react": "^16.4.7",
+    "@zeit/next-mdx": "^1.1.0",
+    "@zeit/next-source-maps": "^0.0.2",
+    "@zeit/next-typescript": "^1.1.0",
+    "babel-plugin-emotion": "^9.2.6",
+    "babel-plugin-idx": "^2.4.0",
+    "babel-plugin-inline-react-svg": "^0.5.4",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "fork-ts-checker-webpack-plugin": "^0.4.3",
+    "next-compose-plugins": "^2.1.1",
+    "remark-emoji": "^2.0.1",
+    "remark-images": "^0.8.1",
+    "tslint": "^5.11.0",
+    "tslint-eslint-rules": "^5.3.1",
+    "tslint-react": "^3.6.0",
+    "typescript": "^2.9.2"
+  },
+  "scripts": {
+    "start": "next",
+    "build": "next build"
+  }
+}

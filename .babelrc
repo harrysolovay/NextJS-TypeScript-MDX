@@ -1,0 +1,20 @@
+{
+  "presets": [
+    "next/babel",
+    "@zeit/next-typescript/babel"
+  ],
+  "plugins": [
+    "babel-plugin-idx",
+    "emotion",
+    "inline-react-svg",
+    "transform-remove-console",
+    ["module-resolver", {
+      "root": "./",
+      "alias": {
+        "components": "./src/components",
+        "utilities": "./src/utilities",
+        "assets": "./src/assets"
+      }
+    }]
+  ]
+}
