@@ -26,6 +26,7 @@ module.exports = composePlugins([
     ]
   }],
 
+  // alternative config (tried with no debugging success)
   // [ withMDX, {
   //   webpack(config, options) {
   //     config.module.rules.push({

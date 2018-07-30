@@ -3,8 +3,8 @@ import containerClass from './styles'
 import ReactLogo from 'assets/images/logo.svg'
 import { ExternalLink } from 'components'
 
-// import TestPost from '../../src/posts/test-post.mdx'
-// console.log(TestPost)
+import TestPost, { Meta } from '../../src/posts/test-post.mdx'
+console.log(Meta, TestPost)
 
 export default () => (
   <div className={ containerClass }>
